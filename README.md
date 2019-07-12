@@ -3,8 +3,8 @@ An api to get a user's number of posts in the past x days from facebook/instagra
 
 
 Usage Examples:
-    import social_scrape
     
+    import social_scrape
     facebook_login = {'email': "your email", "pass": "your password"} # because we need to login to view others' profiles
     facebook = social_scrape.Facebook( facebook_login['email'], facebook_login['pass'] )
     facebook.get_no_of_posts("someones_username", maxdays=30) #get num of posts in 30 days
